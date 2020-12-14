@@ -1,0 +1,22 @@
+{
+  "name": "YJMacros",
+  "version": "0.1.0",
+  "summary": "A short description of YJMacros.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/yangjing901/YJMacros",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "yangjing901": "yangjing901@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/yangjing901/YJMacros.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "YJMacros/Classes/**/*"
+}

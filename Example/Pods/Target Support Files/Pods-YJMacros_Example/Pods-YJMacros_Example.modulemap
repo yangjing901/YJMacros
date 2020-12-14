@@ -1,0 +1,6 @@
+framework module Pods_YJMacros_Example {
+  umbrella header "Pods-YJMacros_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module YJMacros {
+  umbrella header "YJMacros-umbrella.h"
+
+  export *
+  module * { export * }
+}
