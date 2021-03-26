@@ -10,10 +10,10 @@
 @implementation YJSizeMacro
 
 + (instancetype)manager {
-    static POSizeMacro * object = nil;
+    static YJSizeMacro * object = nil;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        object = [[POSizeMacro alloc] init];
+        object = [[YJSizeMacro alloc] init];
     });
     return object;
 }
