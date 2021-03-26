@@ -8,15 +8,17 @@
 #ifndef YJMacros_h
 #define YJMacros_h
 
+#import "YJSizeMacro.h"
+
 //MARK: - 屏幕尺寸
 #define yjScreenWidth            CGRectGetWidth(yjScreenBounds)
 #define yjScreenHeight           CGRectGetHeight(yjScreenBounds)
 #define yjScreenBounds           [UIScreen mainScreen].bounds
 
-#define yjNavigationBarHeight       (yjiPhoneXStyle ? 88.f : 64.f)
-#define yjStatusBarHeight           (yjiPhoneXStyle ? 44.f : 20.f)
+#define yjNavigationBarHeight       (yjStatusBarHeight + 44.f)
+#define yjStatusBarHeight           ([POSizeMacro manager].statusBarHeight)
 #define yjBottomBarHeight           (yjiPhoneXStyle ? 34.f : 0.f)
-#define yjTabBarHeight              (yjiPhoneXStyle ? 83.f : 49.f)
+#define yjTabBarHeight              (yjBottomBarHeight + 49.f)
 
 #define yjWidthScale(width)             ((width)*(yjScreenWidth/375.f))
 #define yjWidthScaleX(width)             ((width)*(yjScreenWidth/414.f))
@@ -26,7 +28,7 @@
 
 /// IPhoneX系列
 /// 手机开热点情况下非全面屏手机statusBarFrame会变成40(横屏会有问题？)
-#define yjiPhoneXStyle ([[UIApplication sharedApplication] statusBarFrame].size.height > 40)
+#define yjiPhoneXStyle (yjStatusBarHeight > 40)
 
 //MARK: - weakify strongify
 #ifndef yjWeakify

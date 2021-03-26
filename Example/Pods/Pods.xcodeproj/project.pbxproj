@@ -16,6 +16,8 @@
 		897CA3C4364B4AD4E0FF3627347EA87C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		C2B914571E8E1E3519C37960E8C4513E /* Pods-YJMacros_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 18444E7F8C81F6A090D61B658FFFA75A /* Pods-YJMacros_Example-dummy.m */; };
 		DC796ED42587470A00B718A6 /* YJMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = DC796ED32587470A00B718A6 /* YJMacros.h */; };
+		DCB232EB260DD9FE009FF271 /* YJSizeMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = DCB232E9260DD9FE009FF271 /* YJSizeMacro.h */; };
+		DCB232EC260DD9FE009FF271 /* YJSizeMacro.m in Sources */ = {isa = PBXBuildFile; fileRef = DCB232EA260DD9FE009FF271 /* YJSizeMacro.m */; };
 		F21BD124ACDA581F07AB0E6E3DE54266 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -68,6 +70,8 @@
 		D13AA7EC67582244AFB37F5833C802AE /* YJMacros.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YJMacros.modulemap; sourceTree = "<group>"; };
 		D5A1DC5368915929A100519C66C83403 /* Pods_YJMacros_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YJMacros_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC796ED32587470A00B718A6 /* YJMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = YJMacros.h; path = YJMacros/Classes/YJMacros.h; sourceTree = "<group>"; };
+		DCB232E9260DD9FE009FF271 /* YJSizeMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = YJSizeMacro.h; path = YJMacros/Classes/YJSizeMacro.h; sourceTree = "<group>"; };
+		DCB232EA260DD9FE009FF271 /* YJSizeMacro.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = YJSizeMacro.m; path = YJMacros/Classes/YJSizeMacro.m; sourceTree = "<group>"; };
 		EB9E9BBC7AC68588B0B2708C68C6ADEA /* Pods-YJMacros_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YJMacros_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		F8F65FBEEDF0F6A88283895AFDC6D055 /* Pods-YJMacros_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YJMacros_Example-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -106,6 +110,8 @@
 				B64165A7D617B782352F94C7AA4D8F8A /* Pod */,
 				FA3C347E38A2569665B37E9EC5B4F738 /* Support Files */,
 				DC796ED32587470A00B718A6 /* YJMacros.h */,
+				DCB232E9260DD9FE009FF271 /* YJSizeMacro.h */,
+				DCB232EA260DD9FE009FF271 /* YJSizeMacro.m */,
 			);
 			name = YJMacros;
 			path = ../..;
@@ -238,6 +244,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCB232EB260DD9FE009FF271 /* YJSizeMacro.h in Headers */,
 				DC796ED42587470A00B718A6 /* YJMacros.h in Headers */,
 				87C860F029EA7377E5F4CB1B7963EF5C /* YJMacros-umbrella.h in Headers */,
 			);
@@ -368,6 +375,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCB232EC260DD9FE009FF271 /* YJSizeMacro.m in Sources */,
 				850823FCD93B5EDAD9B43F9B8F318A04 /* YJMacros-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
