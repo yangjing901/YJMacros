@@ -16,7 +16,7 @@
 #define yjScreenBounds           [UIScreen mainScreen].bounds
 
 #define yjNavigationBarHeight       (yjStatusBarHeight + 44.f)
-#define yjStatusBarHeight           ([POSizeMacro manager].statusBarHeight)
+#define yjStatusBarHeight           ([YJSizeMacro manager].statusBarHeight)
 #define yjBottomBarHeight           (yjiPhoneXStyle ? 34.f : 0.f)
 #define yjTabBarHeight              (yjBottomBarHeight + 49.f)
 

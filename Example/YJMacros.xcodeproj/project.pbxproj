@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = yangjing901;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = Q249ZY9TX6;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -494,6 +497,7 @@
 			baseConfigurationReference = 93B8F249061C299C04C2FE60 /* Pods-YJMacros_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q249ZY9TX6;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YJMacros/YJMacros-Prefix.pch";
 				INFOPLIST_FILE = "YJMacros/YJMacros-Info.plist";
@@ -510,6 +514,7 @@
 			baseConfigurationReference = D5FACBEF09A9A14EDE85DA12 /* Pods-YJMacros_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q249ZY9TX6;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YJMacros/YJMacros-Prefix.pch";
 				INFOPLIST_FILE = "YJMacros/YJMacros-Info.plist";
